@@ -734,7 +734,6 @@ a {
 
     .OrangeFooter {
         background-image: url('../img/bg-simplify-section-mobile.svg');
-        background-repeat: no-repeat;
         background-size: 25vw;
         background-position: left 10px ;
         display: flex;
