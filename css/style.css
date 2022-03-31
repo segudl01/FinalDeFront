@@ -523,11 +523,17 @@ a {
     
     header  {
         display: flex;
-        position: relative;
+        position: fixed;
         margin: 1px;
         width: 100%;
         top: -1px;
         right: -1px;
+    }
+
+    .ContainerProducts {
+        display: flex;
+        position: relative;
+        top: 3.5rem;
     }
 
     .BarraDeNav {
