@@ -1,0 +1,894 @@
+/* -----------------HEADER---------------------*/
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    background: url('../img/bg-tablet-pattern.svg'), url('../img/bg-tablet-pattern.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top right, bottom 35% left -300px;
+    background-size: 50vw;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 100;
+}
+
+.buttonGetStarted:hover{
+    opacity: 0.8;
+    transition: all 500ms;
+}
+
+#Pricing:hover{
+    opacity: 0.4;
+    transition: all 500ms;
+}
+
+#Product:hover{
+    opacity: 0.4;
+    transition: all 500ms;
+}
+
+#AboutUs:hover{
+    opacity: 0.4;
+    transition: all 500ms;
+}
+
+#Careers:hover{
+    opacity: 0.4;
+    transition: all 500ms;
+}
+
+#Community:hover{
+    opacity: 0.4;
+    transition: all 500ms;
+}
+
+.buttonFooterWhite:hover{
+    opacity: 0.8;
+}
+
+.Nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.BarraDeNav { 
+    display: flex;
+    padding: 40px;
+    flex-direction:row;
+    align-items: center;   
+}
+
+.lista li a {
+    text-decoration: none;
+    color: #242E52;
+}
+
+.lista{
+    display: flex;
+    list-style: none;
+    font-weight: 500;
+    line-height: 176.1%;  
+    color: #242E52;
+}
+
+.lista li {
+    margin-right: 1rem;
+}
+
+.buttonGetStarted { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: #F3603B;
+    border-radius: 2rem;
+    height: 3.5rem;
+    width: 9rem;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: opacity 200ms;  
+}
+
+p {
+    color: #B3B2B7;
+    line-height: 26px;
+}
+
+.hamburger {
+    display:none; 
+}
+
+/* -----------------/HEADER---------------------*/
+
+
+/* -----------------MAIN---------------------*/
+
+.ContainerProducts { 
+    display: flex;
+    margin: 80px;
+}
+
+.Bring {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 58px;
+    color: #232C50;
+}
+
+/* -----------------/MAIN---------------------*/
+
+
+/* -----------------PREGUNTAS---------------------*/
+
+.ContainerPreguntas { 
+    display: flex;
+    margin: 80px;
+    justify-content: space-between;
+}
+
+.Questions {   
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+#Diferencias {
+    font-weight: 700;
+    font-size: 36px;
+    color: #232851;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: #F3603B;
+    border-radius: 2rem;
+    height: 3.5rem;
+    width: 5rem;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+.numbersMobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #F3603B;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    display: none;
+}
+
+.Numeros {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+#Manage1{
+    width: 50%;
+    margin: 15px;
+}
+
+#Manage2 {
+    width: 60%;
+}
+
+.containerDeUno-section {
+    display: flex;
+    width: 85%;
+    margin: 10px;  
+}
+
+.track {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    width: 400px;
+    justify-content:space-between;
+}
+
+.div {
+    display: flex;
+}
+
+/* -----------------/PREGUNTAS---------------------*/
+
+
+/* -----------------OPINIONES---------------------*/
+
+#Opiniones {
+    font-weight: 700;
+    font-size: 39.2143px;
+    line-height: 156.6%;
+    text-align: center;
+    color: #242E53;
+    margin: 90px;
+}
+
+
+.ContainerOpiniones {
+    display: flex;
+    position: relative;
+    width: 90%;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+
+#AnishaIMG {
+    position: relative;
+    bottom: 45px;
+    right: 0.5%;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+}
+
+
+#AliIMG { 
+    position: relative;
+    bottom: 45px;
+    right: 0.5%;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+}
+
+#RichardIMG { 
+    position: relative;
+    bottom: 45px;
+    right: 0.5%;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+}
+
+#AnishaLi {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #FAFAFA;
+    width: 30%;
+    padding: 10px white;
+}
+
+#AliBravo { 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #FAFAFA;
+    width: 30%;
+    margin: 10px white;
+}
+
+#RichardWatts {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #FAFAFA;
+    width: 30%;
+    margin: 10px white;
+}
+
+.Opiniones1 { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -----------------/OPINIONES---------------------*/
+
+
+/* -----------------FOOTER---------------------*/
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.OrangeFooter {
+    background-image: url('../img/bg-simplify-section-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 130vw;
+    display: flex;
+    background-position: left 200px bottom10px;
+    background-color: #F3613C;
+    width: 100%;
+    margin-top: 200px;
+    height: 224px;
+}
+
+#TituloFooter {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.005em;
+    width: 40%;
+}
+
+.buttonFooterWhite { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #F3603B;
+    background-color: #FFFF;
+    border-radius: 2rem;
+    height: 3.5rem;
+    width: 9rem;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    cursor: pointer;
+    transition: all 500ms;
+    font-weight: bold;
+}
+
+.simplify {
+    display: flex;
+    align-items: center;    
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 1px;
+}
+
+.BlackFooter {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color:#1E1E26;
+    justify-content: space-around;
+}
+
+.ManageYRedes { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#facebook:hover{
+    color: #F3603B;
+    transition: all 500ms;
+}
+
+#youtube:hover{
+    color: #F3603B;
+    transition: all 500ms;
+}
+
+#twitter:hover{
+    color: #F3603B;
+    transition: all 500ms;
+}
+
+#pinterest:hover{
+    color: #F3603B;
+    transition: all 500ms;
+}
+
+#instagram:hover{
+    color: #F3603B;
+    transition: all 500ms;
+}
+
+#facebook{
+    margin-right: 4px;
+    font-size: 25px;
+}
+
+#youtube{
+    margin-right: 4px;
+    font-size: 25px;
+}
+
+#twitter{
+    margin-right:4px;
+    font-size: 25px;
+}
+
+#pinterest {
+    margin-right: 4px;
+    font-size: 25px;
+    
+}
+
+#instagram{
+    margin-right: 4px;
+    font-size: 25px;
+}
+
+label {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    line-height: 200%;
+    height: 100%;
+    width: 30%;
+    margin-top: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover{
+    color:#F3613C ;
+    transition: all 500ms;
+    
+}
+
+.listaMenu {
+    list-style: none;
+    text-decoration: none;
+}
+
+.listaMenu2 {
+    list-style: none;
+    text-decoration: none;
+}
+
+.mailform {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.form{
+    width: 280px;
+    height: 44px;
+    border-radius: 23px;
+    padding: 20px;
+    border: none;
+}
+
+.buttonGO:hover {
+    opacity: 0.8;
+    transition: all 500ms;
+}
+
+.buttonGO{
+    width: 84px;
+    height: 40px;
+    left: 1140.54px;
+    top: 65px;
+    background: #F3603B;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+}
+
+.Copy {
+     margin-top: 60px;
+     margin-left: 70px;
+}
+
+
+
+/* -----------------/FOOTER---------------------*/
+
+
+@media screen and (max-width: 400px) {
+    html {
+        background: url('../img/bg-tablet-pattern.svg'), url('../img/bg-tablet-pattern.svg');
+        background-repeat: no-repeat, no-repeat;
+        background-position: top -50px right -80px, top 520px right -125px;
+        background-size: 100vw, 70vw;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    
+    header  {
+        display: flex;
+        position: relative;
+        margin: 1px;
+        width: 100%;
+        top: -1px;
+        right: -1px;
+    }
+
+    .BarraDeNav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 20px;
+        padding: 4%;
+    }
+
+    .hamburger {
+            display: block; 
+            margin-right: 0px;
+    }
+
+    .Nav a {
+        display: none;
+    }
+
+
+
+    .ManageYRedes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ContainerProducts {
+        display: flex;
+        flex-direction:column-reverse;
+        margin: 0px;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .Imagenes{
+        display: flex;
+        align-items: center;
+        width: 300px;
+        height: 300px;
+    }
+
+
+
+    .Bring {
+        display: flex;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    #Manage1 {
+        width: 100%;
+        margin: 0px;
+        padding: 10px;
+
+    }
+
+    h1 {
+        font-size: 40px;
+        width: 100%;
+    }
+
+
+    .ContainerPreguntas {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .Questions {
+        display: flex;
+        width: 100%;
+        margin-top: 90px;
+        margin-bottom: 0px;
+    }
+
+    #Diferencias {
+        display: flex;
+        width: 100%;
+        margin: 0px;
+    }
+
+    #Manage2 {
+        display: flex;
+        width: 85%;
+        margin-left: 30px;
+        margin-top: -25px;
+        margin-bottom: 50px;
+    }
+
+    .Numeros {
+        display: flex;
+        width: 100%;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Numeros p {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .containerDeUno-section {
+        display: flex;
+        width: 100%;
+        margin: 0px;
+        flex-direction:row;
+    }
+
+    .containerDeUno-section h4 {
+        display: flex;
+        width: 100%;
+        align-self: center;
+        justify-content:start;
+        background-color: #FFF0EB;
+        align-items: center;
+        text-align: center;
+        color: #232851;
+    }
+
+    .numbers {  display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        background-color: #F3603B;
+        border-radius: 1.5rem;
+        height: 2rem;
+        width: 3rem;
+
+    }
+
+    .track {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+        
+
+    }
+
+    .containerDeUno-section p {
+        text-align: left;
+        margin-left: 1rem;
+    }
+
+    h4{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .numbers {
+        display: none;
+    }
+
+    .numbersMobile {
+        display: block;
+        margin: 0rem 0.5rem;
+    }
+
+    #Opiniones {
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    #AliBravo {
+        text-align: center;
+        width: 100%;
+        margin: 0%;
+        margin-bottom: 2rem;
+    }
+
+    label {
+        display: block;
+    }
+
+    .ContainerOpiniones h4 {
+        display: flex;
+        justify-content: center;
+        margin-top: -2rem;
+    }
+
+    #AnishaLi {
+        display: none;
+    }
+
+    .ContainerOpiniones {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #RichardWatts {
+        display: none;
+    }
+
+    .OrangeFooter {
+        background-image: url('../img/bg-simplify-section-mobile.svg');
+        background-repeat: no-repeat;
+        background-size: 25vw;
+        background-position: left 10px ;
+        display: flex;
+        height: 300px;
+        width: 100%;
+        padding: 2rem;
+        justify-content: center;
+    }
+
+
+
+    .simplify {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    #TituloFooter {
+        display: flex;
+        font-size: 2rem;
+        width: 68%;
+        height: 100%;
+        text-align: center;
+        line-height: 30px;
+        margin-top: 40px;
+    }
+
+
+    .BlackFooter {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        line-height: 30px;
+        width: 100%;
+        font-size: 13px;
+        margin-top: 20px;
+        position: relative;
+        top: 35px;
+
+    }
+
+    .listaMenu {
+        position: relative;
+        right: 40px;
+    }
+    
+    .listaMenu2 {
+        position: relative;
+        left: 40px;
+        margin-left: 1rem;
+    }
+
+    .Redes {
+        position: relative;
+        left: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ManageYRedes {
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+        bottom: -17rem;
+    }
+
+    input[type='radio']:after {
+        width: 7px;
+        height: 7px;
+        border-radius:7px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #FFFF;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 3px solid #F3603B;
+    }
+
+    input[type='radio']:checked:after {
+        width: 7px;
+        height: 7px;
+        border-radius: 7px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #F3603B;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 3px solid #F3603B;
+    }
+
+    .Manage {
+        position: relative;
+        bottom: -15px;
+        display: flex;
+        margin-top: 1rem;
+    }
+
+    .mailform {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin: 3.5px, 15px;
+        bottom: 17rem;
+    }
+    .Copy {
+        display: flex;
+        justify-content: center;
+        margin: 0rem;
+        font-size: 15px;
+        margin: 15px;
+        order: -1;
+    } 
+    
+    #facebook{
+        margin-right: 25px;
+        font-size: 30px;
+    }
+    
+    #youtube{
+        margin-right: 25px;
+        font-size: 30px;
+    }
+    
+    #twitter{
+        margin-right:25px;
+        font-size: 30px;
+    }
+    
+    #pinterest {
+        margin-right: 25px;
+        font-size: 30px;
+        
+    }
+    
+    #instagram{
+        margin-right: 25px;
+        font-size: 30px;
+    }
+
+  
+}
+
